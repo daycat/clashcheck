@@ -1,0 +1,14 @@
+log-level: silent
+mode: global
+port: 4048
+proxies:
+- name: "\U0001F1E8\U0001F1F3 HK 149"
+  password: 5d07c2f7-830b-4e29-aeb1-67cd98293ec6
+  port: 34567
+  server: gy02.20220512.cyou
+  skip-cert-verify: false
+  sni: gy02.20220512.cyou
+  type: trojan
+proxy-groups:
+- "\U0001F1E8\U0001F1F3 HK 149"
+rules: []

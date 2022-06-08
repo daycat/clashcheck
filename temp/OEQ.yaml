@@ -1,0 +1,13 @@
+log-level: silent
+mode: global
+port: 4132
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 JP 233"
+  password: ljqdalu13..
+  port: 8313
+  server: 20.210.234.200
+  type: ss
+proxy-groups:
+- "\U0001F1EF\U0001F1F5 JP 233"
+rules: []

@@ -1,0 +1,20 @@
+log-level: silent
+mode: global
+port: 4037
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 138"
+  network: ws
+  port: 443
+  server: lu1.gogogoo.cyou
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  ws-headers:
+    Host: lu1.gogogoo.cyou
+  ws-path: /go
+proxy-groups:
+- "\U0001F1FA\U0001F1F3 UN 138"
+rules: []

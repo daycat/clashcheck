@@ -1,0 +1,14 @@
+log-level: silent
+mode: global
+port: 4014
+proxies:
+- name: "\U0001F1E8\U0001F1F3 HK 115"
+  password: d66013c645b93c5c
+  port: 3389
+  server: 20.187.79.61
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+proxy-groups:
+- "\U0001F1E8\U0001F1F3 HK 115"
+rules: []

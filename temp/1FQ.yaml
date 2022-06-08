@@ -1,0 +1,16 @@
+log-level: silent
+mode: global
+port: 4042
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC SG 143"
+  port: 43956
+  server: sg.guiqing.ml
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369
+proxy-groups:
+- "\U0001F1F8\U0001F1EC SG 143"
+rules: []

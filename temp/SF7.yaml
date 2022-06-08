@@ -1,0 +1,13 @@
+log-level: silent
+mode: global
+port: 4020
+proxies:
+- cipher: aes-128-gcm
+  name: "\U0001F1FA\U0001F1F8 US 121"
+  password: 6601fb90e9b3
+  port: 443
+  server: www.v2rayfree.eu.org
+  type: ss
+proxy-groups:
+- "\U0001F1FA\U0001F1F8 US 121"
+rules: []

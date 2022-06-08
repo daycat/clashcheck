@@ -1,0 +1,20 @@
+log-level: silent
+mode: global
+port: 3916
+proxies:
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 17"
+  network: ws
+  port: '443'
+  server: ruvds.testx.eu.org
+  tls: true
+  type: vmess
+  uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10
+  ws-opts:
+    headers:
+      host: ruvds.testx.eu.org
+    path: /vmess-share/?ed=2048
+proxy-groups:
+- "\U0001F1FA\U0001F1F3 UN 17"
+rules: []

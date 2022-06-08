@@ -1,0 +1,13 @@
+log-level: silent
+mode: global
+port: 3922
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 23"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 48801
+  server: ss.kr.zf.edu.ge
+  type: ss
+proxy-groups:
+- "\U0001F1E8\U0001F1F3 CN 23"
+rules: []

@@ -1,0 +1,3 @@
+http-port: 23940
+api-port: 23941
+threads: 100

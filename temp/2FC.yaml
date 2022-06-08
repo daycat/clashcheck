@@ -1,0 +1,21 @@
+log-level: silent
+mode: global
+port: 4128
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 229"
+  network: ws
+  port: 50001
+  server: 52.197.220.164
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 988114fd-b25d-4c17-9ff1-f7121e9129fc
+  ws-opts:
+    headers:
+      Host: 52.197.220.164
+    path: /
+proxy-groups:
+- "\U0001F1EF\U0001F1F5 JP 229"
+rules: []

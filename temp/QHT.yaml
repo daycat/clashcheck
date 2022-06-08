@@ -1,0 +1,17 @@
+log-level: silent
+mode: global
+port: 4098
+proxies:
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 199"
+  port: 52286
+  server: 86.wowogg.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+proxy-groups:
+- "\U0001F1FA\U0001F1F3 UN 199"
+rules: []

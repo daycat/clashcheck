@@ -1,0 +1,13 @@
+log-level: silent
+mode: global
+port: 3996
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 97"
+  password: 297545c2-a59d-4610-9580-a7baa3657a57
+  port: 17565
+  server: gy.ziqiyun.xyz
+  type: ss
+proxy-groups:
+- "\U0001F1E8\U0001F1F3 CN 97"
+rules: []

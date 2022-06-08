@@ -1,0 +1,17 @@
+log-level: silent
+mode: global
+port: 4111
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1ED CH 212"
+  port: 120
+  server: 51.103.172.68
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4d358310-efdf-4622-9d7e-c067935e7ab8
+proxy-groups:
+- "\U0001F1E8\U0001F1ED CH 212"
+rules: []

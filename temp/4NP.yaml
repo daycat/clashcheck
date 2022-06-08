@@ -1,0 +1,19 @@
+log-level: silent
+mode: global
+port: 4064
+proxies:
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 165"
+  network: ws
+  port: '21126'
+  server: 120.232.211.231
+  type: vmess
+  uuid: 2fa8f251-9daf-3ffa-8606-0db449400d07
+  ws-opts:
+    headers:
+      host: 120.232.211.231
+    path: /index
+proxy-groups:
+- "\U0001F1E8\U0001F1F3 CN 165"
+rules: []

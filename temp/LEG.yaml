@@ -1,0 +1,15 @@
+log-level: silent
+mode: global
+port: 4085
+proxies:
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 186"
+  network: tcp
+  port: '42382'
+  server: 143.198.130.21
+  type: vmess
+  uuid: 03b452a7-907b-4f77-8ca4-60250cc835bc
+proxy-groups:
+- "\U0001F1FA\U0001F1F8 US 186"
+rules: []

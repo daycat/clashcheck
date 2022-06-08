@@ -1,0 +1,20 @@
+log-level: silent
+mode: global
+port: 4125
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 226"
+  network: ws
+  port: 80
+  server: v1.goooodserver.ml
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 3b5b288a-6422-4eee-ea53-e8e0edd80e09
+  ws-headers:
+    Host: v1.goooodserver.ml
+  ws-path: /
+proxy-groups:
+- "\U0001F1FA\U0001F1F3 UN 226"
+rules: []

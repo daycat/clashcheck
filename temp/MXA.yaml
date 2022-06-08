@@ -1,0 +1,16 @@
+log-level: silent
+mode: global
+port: 4035
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC SG 136"
+  port: 31244
+  server: 103.172.116.87
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33
+proxy-groups:
+- "\U0001F1F8\U0001F1EC SG 136"
+rules: []

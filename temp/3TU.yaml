@@ -1,0 +1,15 @@
+log-level: silent
+mode: global
+port: 4008
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 109"
+  network: tcp
+  port: 29577
+  server: 23.83.224.101
+  type: vmess
+  uuid: f03691e4-8903-4f31-8095-ea54c4c2a3b5
+proxy-groups:
+- "\U0001F1FA\U0001F1F8 US 109"
+rules: []

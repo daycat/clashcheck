@@ -1,0 +1,21 @@
+log-level: silent
+mode: global
+port: 4175
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 276"
+  network: ws
+  port: 20000
+  server: us01.henet.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a64899d8-6261-4e97-baf1-d304591a33c6
+  ws-opts:
+    headers:
+      Host: cctv.com
+    path: /live
+proxy-groups:
+- "\U0001F1FA\U0001F1F8 US 276"
+rules: []

@@ -1,0 +1,15 @@
+log-level: silent
+mode: global
+port: 3909
+proxies:
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 10"
+  network: tcp
+  port: '26195'
+  server: 150.230.60.8
+  type: vmess
+  uuid: 8c44be2e-2e16-4cf4-db1e-a1c8c61b7fd4
+proxy-groups:
+- "\U0001F1EF\U0001F1F5 JP 10"
+rules: []

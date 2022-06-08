@@ -1,0 +1,22 @@
+log-level: silent
+mode: global
+port: 4123
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1E6 CA 224"
+  network: ws
+  port: 18443
+  server: ca1.trojan.tel
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f736834f-1fc8-4738-9884-9afe0eb0d818
+  ws-opts:
+    headers:
+      Host: d85bb25696.laowanxiang.com
+    path: /api/v3/download.getFile
+proxy-groups:
+- "\U0001F1E8\U0001F1E6 CA 224"
+rules: []

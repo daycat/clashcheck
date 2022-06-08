@@ -1,0 +1,14 @@
+log-level: silent
+mode: global
+port: 3914
+proxies:
+- name: "\U0001F1EE\U0001F1F3 IN 15"
+  password: 081a4198-d664-4bc5-a7c6-e35982da964b
+  port: 443
+  server: jgwhdlb4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+proxy-groups:
+- "\U0001F1EE\U0001F1F3 IN 15"
+rules: []

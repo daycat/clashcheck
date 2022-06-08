@@ -1,0 +1,15 @@
+log-level: silent
+mode: global
+port: 4083
+proxies:
+- name: "\U0001F1FA\U0001F1F8 US 184"
+  password: 3ad41c7b-b772-3f96-9986-66d1a2b79820cmynw
+  port: 443
+  server: kaizen-us-17.cmy-dns.com
+  skip-cert-verify: true
+  sni: paydiu.com
+  type: trojan
+  udp: true
+proxy-groups:
+- "\U0001F1FA\U0001F1F8 US 184"
+rules: []

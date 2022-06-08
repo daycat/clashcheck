@@ -1,0 +1,20 @@
+log-level: silent
+mode: global
+port: 4076
+proxies:
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 177"
+  network: ws
+  port: '443'
+  server: ifffffffuuuuuuus.qiqicdn2.cf
+  tls: true
+  type: vmess
+  uuid: 5a36cce4-0527-4d36-bf4a-6c215ef9c524
+  ws-opts:
+    headers:
+      host: ifffffffuuuuuuus.qiqicdn2.cf
+    path: /5a36cce4-0527-4d36-bf4a-6c215ef9c524-vmess
+proxy-groups:
+- "\U0001F1FA\U0001F1F3 UN 177"
+rules: []

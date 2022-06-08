@@ -1,0 +1,21 @@
+log-level: silent
+mode: global
+port: 4144
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 245"
+  network: ws
+  port: 25888
+  server: gkdcu.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcu.myjcbbcn.top
+    path: /
+proxy-groups:
+- "\U0001F1E8\U0001F1F3 CN 245"
+rules: []

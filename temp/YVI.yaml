@@ -1,0 +1,19 @@
+log-level: silent
+mode: global
+port: 4080
+proxies:
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 181"
+  network: ws
+  port: '1256'
+  server: v20.emovpn.xyz
+  type: vmess
+  uuid: 61e28514-1462-43b8-97ac-186dc70151f9
+  ws-opts:
+    headers:
+      host: aweikeji-YouTube
+    path: /
+proxy-groups:
+- "\U0001F1FA\U0001F1F8 US 181"
+rules: []

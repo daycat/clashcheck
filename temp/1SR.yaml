@@ -1,0 +1,16 @@
+log-level: silent
+mode: global
+port: 4040
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 141"
+  port: 20194
+  server: 140.83.82.32
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 71f6a39d-ee6b-477b-af0a-78a41a6bd637
+proxy-groups:
+- "\U0001F1EF\U0001F1F5 JP 141"
+rules: []

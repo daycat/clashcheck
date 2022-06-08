@@ -1,0 +1,17 @@
+log-level: silent
+mode: global
+port: 4118
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 219"
+  port: 13413
+  server: 125.94.37.107
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cb72800-3d77-4db3-b656-26c3bc04125d
+proxy-groups:
+- "\U0001F1E8\U0001F1F3 CN 219"
+rules: []

@@ -1,0 +1,15 @@
+log-level: silent
+mode: global
+port: 4010
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F3\U0001F1F1 NL 111"
+  network: tcp
+  port: 30718
+  server: 104.255.65.112
+  type: vmess
+  uuid: f0f63386-d747-4d44-8d16-6e2d254f0ed3
+proxy-groups:
+- "\U0001F1F3\U0001F1F1 NL 111"
+rules: []

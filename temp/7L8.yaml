@@ -1,0 +1,14 @@
+log-level: silent
+mode: global
+port: 4091
+proxies:
+- cipher: aes-256-gcm
+  name: "\U0001F1EB\U0001F1F7 FR 192"
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 149.202.82.172
+  type: ss
+  udp: true
+proxy-groups:
+- "\U0001F1EB\U0001F1F7 FR 192"
+rules: []

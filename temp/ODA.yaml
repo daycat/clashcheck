@@ -1,0 +1,19 @@
+log-level: silent
+mode: global
+port: 3940
+proxies:
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1F3\U0001F1F1 NL 41"
+  network: ws
+  port: '10051'
+  server: agem.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+proxy-groups:
+- "\U0001F1F3\U0001F1F1 NL 41"
+rules: []

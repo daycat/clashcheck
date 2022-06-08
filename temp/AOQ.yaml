@@ -1,0 +1,20 @@
+log-level: silent
+mode: global
+port: 3944
+proxies:
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 45"
+  network: ws
+  port: '2096'
+  server: v2ray.wefuckgfw.ga
+  tls: true
+  type: vmess
+  uuid: 4b416ebb-53a5-4d72-8bda-345c25934cd4
+  ws-opts:
+    headers:
+      host: v2ray.wefuckgfw.ga
+    path: /H8VswtUJ/
+proxy-groups:
+- "\U0001F1FA\U0001F1F8 US 45"
+rules: []

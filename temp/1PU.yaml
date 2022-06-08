@@ -1,0 +1,14 @@
+log-level: silent
+mode: global
+port: 4027
+proxies:
+- name: "\U0001F1FA\U0001F1F8 US 128"
+  password: 2971161c-46af-4ac3-b9c3-409b2750a751
+  port: 44610
+  server: usgt.node.qchwnd.moe
+  skip-cert-verify: false
+  sni: usgt.node.qchwnd.moe
+  type: trojan
+proxy-groups:
+- "\U0001F1FA\U0001F1F8 US 128"
+rules: []

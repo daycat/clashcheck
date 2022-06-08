@@ -1,0 +1,21 @@
+log-level: silent
+mode: global
+port: 4127
+proxies:
+- alterId: 1
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 228"
+  network: ws
+  port: 27820
+  server: mc.xiaohouzi.club
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      Host: www.ibm.com
+    path: /v2ray
+proxy-groups:
+- "\U0001F1E8\U0001F1F3 CN 228"
+rules: []

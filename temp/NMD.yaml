@@ -1,0 +1,16 @@
+log-level: silent
+mode: global
+port: 4022
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 HK 123"
+  port: 3245
+  server: 43.154.114.208
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e4a15b1d-8dfd-4bd7-ab33-06c8cd174c0b
+proxy-groups:
+- "\U0001F1E8\U0001F1F3 HK 123"
+rules: []

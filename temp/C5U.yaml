@@ -1,0 +1,14 @@
+log-level: silent
+mode: global
+port: 4017
+proxies:
+- name: "\U0001F1F8\U0001F1EC SG 118"
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s2.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+proxy-groups:
+- "\U0001F1F8\U0001F1EC SG 118"
+rules: []

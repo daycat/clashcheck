@@ -1,0 +1,15 @@
+log-level: silent
+mode: global
+port: 4075
+proxies:
+- name: "\U0001F1FA\U0001F1F8 US 176"
+  password: password
+  port: 443
+  server: us.vless.fun
+  skip-cert-verify: true
+  sni: us.vless.fun
+  type: trojan
+  udp: true
+proxy-groups:
+- "\U0001F1FA\U0001F1F8 US 176"
+rules: []

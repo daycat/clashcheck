@@ -1,0 +1,14 @@
+log-level: silent
+mode: global
+port: 4090
+proxies:
+- name: "\U0001F1FA\U0001F1F8 US 191"
+  password: b9aeaaa9-8817-40d6-8936-84fa5581fe14
+  port: 51000
+  server: hk.zzk8.me
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+proxy-groups:
+- "\U0001F1FA\U0001F1F8 US 191"
+rules: []

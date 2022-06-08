@@ -1,0 +1,20 @@
+log-level: silent
+mode: global
+port: 3921
+proxies:
+- alterId: '2'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 TW 22"
+  network: ws
+  port: '443'
+  server: 330tw.fans8.xyz
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-opts:
+    headers:
+      host: 330tw.fans8.xyz
+    path: /ray
+proxy-groups:
+- "\U0001F1E8\U0001F1F3 TW 22"
+rules: []

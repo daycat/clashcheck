@@ -1,0 +1,19 @@
+log-level: silent
+mode: global
+port: 3994
+proxies:
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 95"
+  network: ws
+  port: '29239'
+  server: mc.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+proxy-groups:
+- "\U0001F1E8\U0001F1F3 CN 95"
+rules: []

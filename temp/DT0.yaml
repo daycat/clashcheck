@@ -1,0 +1,15 @@
+log-level: silent
+mode: global
+port: 4059
+proxies:
+- cipher: dummy
+  name: "\U0001F1F7\U0001F1FA RU 160"
+  obfs: plain
+  password: lncn.org 1n
+  port: 9582
+  protocol: origin
+  server: 45.8.159.129
+  type: ssr
+proxy-groups:
+- "\U0001F1F7\U0001F1FA RU 160"
+rules: []

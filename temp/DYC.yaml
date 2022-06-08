@@ -1,0 +1,20 @@
+log-level: silent
+mode: global
+port: 4034
+proxies:
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 135"
+  network: ws
+  port: 443
+  server: app.ssfree.ru
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 4e6ff0ac-e616-11ec-acf4-000017022008
+  ws-headers:
+    Host: app.ssfree.ru
+  ws-path: /getweather
+proxy-groups:
+- "\U0001F1FA\U0001F1F8 US 135"
+rules: []

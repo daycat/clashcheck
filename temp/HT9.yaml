@@ -1,0 +1,16 @@
+log-level: silent
+mode: global
+port: 4030
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC SG 131"
+  port: 49381
+  server: 129.226.216.121
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2f6d0f82-80c4-42ed-fd46-c76e7cc81de0
+proxy-groups:
+- "\U0001F1F8\U0001F1EC SG 131"
+rules: []

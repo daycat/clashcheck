@@ -1,0 +1,13 @@
+log-level: silent
+mode: global
+port: 3980
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 JP 81"
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 185.160.26.159
+  type: ss
+proxy-groups:
+- "\U0001F1EF\U0001F1F5 JP 81"
+rules: []

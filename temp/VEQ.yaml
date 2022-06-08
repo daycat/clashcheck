@@ -1,0 +1,15 @@
+log-level: silent
+mode: global
+port: 4072
+proxies:
+- name: "\U0001F1E8\U0001F1F3 HK 173"
+  password: d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb
+  port: 33346
+  server: az.az-bgp.chuangshi999.xyz
+  skip-cert-verify: true
+  sni: yd1.fengzi.uk
+  type: trojan
+  udp: true
+proxy-groups:
+- "\U0001F1E8\U0001F1F3 HK 173"
+rules: []

@@ -1,0 +1,2815 @@
+external-controller: 127.0.0.1:23941
+log-level: silent
+mode: global
+port: 23940
+proxies:
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 1"
+  network: ws
+  port: '28324'
+  server: mc.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 2"
+  network: ws
+  port: '25236'
+  server: sh.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 3"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 49006
+  server: ss.us.zf.edu.ge
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 4"
+  network: ws
+  port: '27811'
+  server: mc.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- name: "\U0001F1E8\U0001F1F3 HK 5"
+  password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6
+  port: 10087
+  server: hk002.369boy.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 6"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 48802
+  server: ss.kr.zf.edu.ge
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 7"
+  network: ws
+  port: '28521'
+  server: bgp.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 8"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 49002
+  server: ss.us.zf.edu.ge
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 HK 9"
+  network: ws
+  port: '10050'
+  server: azhk03.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 10"
+  network: tcp
+  port: '26195'
+  server: 150.230.60.8
+  type: vmess
+  uuid: 8c44be2e-2e16-4cf4-db1e-a1c8c61b7fd4
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 11"
+  network: ws
+  port: '28529'
+  server: bgp.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 12"
+  password: 297545c2-a59d-4610-9580-a7baa3657a57
+  port: 44041
+  server: gy.ziqiyun.xyz
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 13"
+  network: ws
+  port: '28325'
+  server: mc.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: aweikeji-YouTube
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 14"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 38405
+  server: sh.zf.edu.ge
+  type: ss
+- name: "\U0001F1EE\U0001F1F3 IN 15"
+  password: 081a4198-d664-4bc5-a7c6-e35982da964b
+  port: 443
+  server: jgwhdlb4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 16"
+  network: tcp
+  port: '12221'
+  server: bgpv2.ktyjsq.com
+  type: vmess
+  uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 17"
+  network: ws
+  port: '443'
+  server: ruvds.testx.eu.org
+  tls: true
+  type: vmess
+  uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10
+  ws-opts:
+    headers:
+      host: ruvds.testx.eu.org
+    path: /vmess-share/?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 18"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 48803
+  server: ss.kr.zf.edu.ge
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 19"
+  network: ws
+  port: '28321'
+  server: mc.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 20"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 38403
+  server: sh.zf.edu.ge
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 21"
+  network: ws
+  port: '22702'
+  server: mc.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '2'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 TW 22"
+  network: ws
+  port: '443'
+  server: 330tw.fans8.xyz
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-opts:
+    headers:
+      host: 330tw.fans8.xyz
+    path: /ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 23"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 48801
+  server: ss.kr.zf.edu.ge
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E6\U0001F1FA AU 24"
+  network: ws
+  port: '10050'
+  server: au03.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 25"
+  network: tcp
+  port: '12005'
+  server: bgpv2.ktyjsq.com
+  type: vmess
+  uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6
+- name: "\U0001F1EF\U0001F1F5 JP 26"
+  password: f1f68ae758
+  port: 443
+  server: sakula.necirly.ml
+  skip-cert-verify: true
+  sni: sakula.necirly.ml
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 27"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 38402
+  server: sh.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 28"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 38407
+  server: sh.zf.edu.ge
+  type: ss
+- name: "\U0001F1FA\U0001F1F8 US 29"
+  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
+  port: 443
+  server: tj-us02.yiyodns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 30"
+  network: ws
+  port: '27812'
+  server: mc.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 31"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 48603
+  server: ss.jp.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 32"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 39400
+  server: sh.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 33"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 48604
+  server: ss.jp.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 34"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 48605
+  server: ss.jp.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 35"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 49403
+  server: gz.bgp2.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 36"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 38404
+  server: sh.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 37"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 38406
+  server: sh.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 38"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 38410
+  server: sh.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 39"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 48601
+  server: ss.jp.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 40"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 38408
+  server: sh.zf.edu.ge
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1F3\U0001F1F1 NL 41"
+  network: ws
+  port: '10051'
+  server: agem.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 42"
+  network: ws
+  port: '443'
+  server: taobao.babazhuji.com
+  tls: true
+  type: vmess
+  uuid: 36712be8-f2ff-4875-8c67-95efd66ac994
+  ws-opts:
+    headers:
+      host: taobao.babazhuji.com
+    path: /didi
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 JP 43"
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 185.168.20.46
+  type: ss
+- alterId: '2'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 TW 44"
+  network: ws
+  port: '80'
+  server: 331tw.fans8.xyz
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-opts:
+    headers:
+      host: 331tw.fans8.xyz
+    path: /ray
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 45"
+  network: ws
+  port: '2096'
+  server: v2ray.wefuckgfw.ga
+  tls: true
+  type: vmess
+  uuid: 4b416ebb-53a5-4d72-8bda-345c25934cd4
+  ws-opts:
+    headers:
+      host: v2ray.wefuckgfw.ga
+    path: /H8VswtUJ/
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 46"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 38409
+  server: sh.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 47"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 48606
+  server: ss.jp.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 48"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 39401
+  server: sh.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 49"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 38401
+  server: sh.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 50"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 39407
+  server: sh.zf.edu.ge
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 51"
+  network: ws
+  port: '28323'
+  server: mc.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 52"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 39403
+  server: sh.zf.edu.ge
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 53"
+  network: ws
+  port: '27820'
+  server: mc.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 54"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 49412
+  server: gz.bgp2.zf.edu.ge
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 55"
+  network: ws
+  port: '24912'
+  server: sh.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 56"
+  network: ws
+  port: '25235'
+  server: sh.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 57"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 49401
+  server: gz.bgp2.zf.edu.ge
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 58"
+  network: ws
+  port: '30002'
+  server: mc.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 59"
+  network: ws
+  port: '28518'
+  server: bgp.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 60"
+  network: ws
+  port: '25241'
+  server: sh.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 61"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 39404
+  server: sh.zf.edu.ge
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 62"
+  network: ws
+  port: '443'
+  server: oz.moonfree.top
+  tls: true
+  type: vmess
+  uuid: 9fbb6122-46e7-413b-b29d-749eef446c8d
+  ws-opts:
+    headers:
+      host: oz.moonfree.top
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 63"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 49400
+  server: gz.bgp2.zf.edu.ge
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 HK 64"
+  network: ws
+  port: '10050'
+  server: aws-hk03.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 65"
+  network: ws
+  port: '17901'
+  server: sh.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 66"
+  network: ws
+  port: '27821'
+  server: mc.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 67"
+  network: ws
+  port: '10050'
+  server: awshk06.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 JP 68"
+  password: G!yBwPWH3Vao
+  port: 804
+  server: 185.160.26.22
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 69"
+  network: ws
+  port: '23662'
+  server: 173.82.226.27
+  type: vmess
+  uuid: efa2ab76-539d-4b6a-9572-24ba709fb81b
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 70"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 49406
+  server: gz.bgp2.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 71"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 39412
+  server: sh.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 72"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 49407
+  server: gz.bgp2.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 73"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 49408
+  server: gz.bgp2.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 74"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 14288
+  server: uc.hk.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 75"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 39408
+  server: sh.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 76"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 49004
+  server: ss.us.zf.edu.ge
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 77"
+  network: ws
+  port: '25231'
+  server: sh.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 78"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 39406
+  server: sh.zf.edu.ge
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 HK 79"
+  network: ws
+  port: '10050'
+  server: vusig02.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 80"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 49003
+  server: ss.us.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 JP 81"
+  password: G!yBwPWH3Vao
+  port: 809
+  server: 185.160.26.159
+  type: ss
+- alterId: '2'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 HK 82"
+  network: ws
+  port: '80'
+  server: 527hk1.fans8.xyz
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-opts:
+    headers:
+      host: 527hk1.fans8.xyz
+    path: /ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 83"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 39405
+  server: sh.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 84"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 39410
+  server: sh.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 85"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 49410
+  server: gz.bgp2.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 86"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 49405
+  server: gz.bgp2.zf.edu.ge
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 87"
+  network: tcp
+  port: '12224'
+  server: bgpv2.ktyjsq.com
+  type: vmess
+  uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 88"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 49404
+  server: gz.bgp2.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 JP 89"
+  password: G!yBwPWH3Vao
+  port: 805
+  server: 185.160.26.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 JP 90"
+  password: G!yBwPWH3Vao
+  port: 810
+  server: 185.160.26.142
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 JP 91"
+  password: G!yBwPWH3Vao
+  port: 806
+  server: 185.160.24.147
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 92"
+  network: ws
+  port: '25233'
+  server: sh.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 93"
+  network: ws
+  port: '25240'
+  server: sh.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 94"
+  network: ws
+  port: '22703'
+  server: mc.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 95"
+  network: ws
+  port: '29239'
+  server: mc.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 96"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 48521
+  server: gz.bgp2.zf.edu.ge
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 97"
+  password: 297545c2-a59d-4610-9580-a7baa3657a57
+  port: 17565
+  server: gy.ziqiyun.xyz
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 98"
+  network: ws
+  port: '22346'
+  server: bgp.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 99"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 46201
+  server: gz.bgp2.zf.edu.ge
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 100"
+  network: ws
+  port: '28322'
+  server: mc.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 101"
+  network: ws
+  port: '27816'
+  server: mc.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 102"
+  network: tcp
+  port: '12223'
+  server: bgpv2.ktyjsq.com
+  type: vmess
+  uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 CN 103"
+  password: 2fe19618-da3b-426c-ac50-95bcec25e793
+  port: 49011
+  server: ss.us.zf.edu.ge
+  type: ss
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 104"
+  network: ws
+  port: '28530'
+  server: bgp.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 105"
+  network: ws
+  port: '28519'
+  server: bgp.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- name: "\U0001F1E6\U0001F1FA AU 106"
+  password: 3yFq7NCP53mVfpXJz3
+  port: 443
+  server: au2-1.nigirocloud.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 US 107"
+  password: x2XdRxsjCpjTfWB9
+  port: 29577
+  server: 45.78.6.3
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 US 108"
+  password: x2XdRxsjCpjTfWB9
+  port: 29577
+  server: 45.78.6.207
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 109"
+  network: tcp
+  port: 29577
+  server: 23.83.224.101
+  type: vmess
+  uuid: f03691e4-8903-4f31-8095-ea54c4c2a3b5
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 US 110"
+  password: LdsggNJYj8n54H8v
+  port: 30718
+  server: 45.78.10.149
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F3\U0001F1F1 NL 111"
+  network: tcp
+  port: 30718
+  server: 104.255.65.112
+  type: vmess
+  uuid: f0f63386-d747-4d44-8d16-6e2d254f0ed3
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F3\U0001F1F1 NL 112"
+  network: tcp
+  port: 29577
+  server: 104.255.66.30
+  type: vmess
+  uuid: f03691e4-8903-4f31-8095-ea54c4c2a3b5
+- name: "\U0001F1E6\U0001F1FA AU 113"
+  password: 3yFq7NCP53mVfpXJz3
+  port: 443
+  server: 212.81.47.18
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: "\U0001F1E6\U0001F1FA AU 114"
+  password: 3yFq7NCP53mVfpXJz3
+  port: 443
+  server: au2-2.nigirocloud.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 115"
+  password: d66013c645b93c5c
+  port: 3389
+  server: 20.187.79.61
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 JP 116"
+  password: G!yBwPWH3Vao
+  port: 800
+  server: 185.160.26.40
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 JP 117"
+  password: G!yBwPWH3Vao
+  port: 808
+  server: 185.160.24.143
+  type: ss
+- name: "\U0001F1F8\U0001F1EC SG 118"
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s2.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 119"
+  password: f7e7b38f-79d5-4860-8687-f8c083e13da4
+  port: 20009
+  server: cm-gz.okvpn.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1F3\U0001F1F1 NL 120"
+  password: a3GFYt36Sm82Vys9
+  port: 9000
+  server: 185.246.155.29
+  type: ss
+- cipher: aes-128-gcm
+  name: "\U0001F1FA\U0001F1F8 US 121"
+  password: 6601fb90e9b3
+  port: 443
+  server: www.v2rayfree.eu.org
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 HK 122"
+  network: ws
+  port: 10050
+  server: vusig02.xiaohouzi.club
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-headers:
+    Host: www.ibm.com
+  ws-path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 HK 123"
+  port: 3245
+  server: 43.154.114.208
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: e4a15b1d-8dfd-4bd7-ab33-06c8cd174c0b
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 HK 124"
+  network: ws
+  port: 21168
+  server: f2s.wokuaitule.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ff4d9b23-23de-374b-8900-aa03ff957e12
+  ws-headers:
+    Host: f2s.wokuaitule.xyz
+  ws-path: /index
+- alterId: 1
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 125"
+  network: ws
+  port: 17901
+  server: sh.xiaohouzi.club
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-headers:
+    Host: sh.xiaohouzi.club
+  ws-path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 126"
+  network: ws
+  port: 443
+  server: vjp1.0bad.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    Host: vjp1.0bad.com
+  ws-path: /chat
+- cipher: aes-256-cfb
+  name: "\U0001F1EC\U0001F1E7 GB 127"
+  password: S7KwUu7yBy58S3Ga
+  port: 9042
+  server: 152.89.210.105
+  type: ss
+- name: "\U0001F1FA\U0001F1F8 US 128"
+  password: 2971161c-46af-4ac3-b9c3-409b2750a751
+  port: 44610
+  server: usgt.node.qchwnd.moe
+  skip-cert-verify: false
+  sni: usgt.node.qchwnd.moe
+  type: trojan
+- cipher: aes-256-cfb
+  name: "\U0001F1F7\U0001F1FA RU 129"
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 213.183.53.212
+  type: ss
+- name: "\U0001F1FA\U0001F1F8 US 130"
+  password: 48ac743a-2d49-4191-b804-0c7fa7e01146
+  port: 443
+  server: mc.vpshax.ml
+  skip-cert-verify: false
+  sni: mc.vpshax.ml
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC SG 131"
+  port: 49381
+  server: 129.226.216.121
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2f6d0f82-80c4-42ed-fd46-c76e7cc81de0
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 HK 132"
+  network: ws
+  port: 80
+  server: 527hk1.fans8.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    Host: 527hk1.fans8.xyz
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 133"
+  network: ws
+  port: 443
+  server: vjp3.0bad.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    Host: vjp3.0bad.com
+  ws-path: /
+- name: "\U0001F1F8\U0001F1EC SG 134"
+  password: c4a031e7-27a0-4a43-9952-7420bc2b8894
+  port: 443
+  server: hk64.fans8.xyz
+  skip-cert-verify: false
+  sni: hk64.fans8.xyz
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 135"
+  network: ws
+  port: 443
+  server: app.ssfree.ru
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 4e6ff0ac-e616-11ec-acf4-000017022008
+  ws-headers:
+    Host: app.ssfree.ru
+  ws-path: /getweather
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC SG 136"
+  port: 31244
+  server: 103.172.116.87
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1EB\U0001F1F7 FR 137"
+  network: ws
+  port: 443
+  server: 54.37.192.112
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  ws-headers:
+    Host: 54.37.192.112
+  ws-path: /path/120208301422
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 138"
+  network: ws
+  port: 443
+  server: lu1.gogogoo.cyou
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  ws-headers:
+    Host: lu1.gogogoo.cyou
+  ws-path: /go
+- alterId: 1
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 139"
+  network: ws
+  port: 38201
+  server: ingress-i1.onebox6.org
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-headers:
+    Host: www.ivpnpro.net
+  ws-path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 140"
+  port: 57539
+  server: bwg2.gushidawang.cc
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: fcf7202c-bd1a-44e9-a25e-bf152f6e5c11
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 141"
+  port: 20194
+  server: 140.83.82.32
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 71f6a39d-ee6b-477b-af0a-78a41a6bd637
+- cipher: aes-256-cfb
+  name: "\U0001F1F7\U0001F1FA RU 142"
+  password: dML2sfhbVwvtfNPe
+  port: 9058
+  server: 213.183.53.182
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC SG 143"
+  port: 43956
+  server: sg.guiqing.ml
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369
+- alterId: 1
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 144"
+  network: ws
+  port: 21154
+  server: cmi.db-link.in
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: c4fa06ca-c18f-37a4-ba0e-63537c0fb672
+  ws-headers:
+    Host: cmi.db-link.in
+  ws-path: /db
+- cipher: aes-256-cfb
+  name: "\U0001F1F7\U0001F1FA RU 145"
+  password: dML2sfhbVwvtfNPe
+  port: 9058
+  server: 213.183.53.222
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 146"
+  port: 12005
+  server: bgpv2.ktyjsq.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 US 147"
+  password: ERyG9Y6LA7
+  port: 51366
+  server: 45.78.5.246
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EE\U0001F1F3 IN 148"
+  port: 31221
+  server: 172.104.206.42
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33
+- name: "\U0001F1E8\U0001F1F3 HK 149"
+  password: 5d07c2f7-830b-4e29-aeb1-67cd98293ec6
+  port: 34567
+  server: gy02.20220512.cyou
+  skip-cert-verify: false
+  sni: gy02.20220512.cyou
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 150"
+  port: 31372
+  server: 43.128.253.82
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2a9056a7-bf92-40c8-f155-1e14aac9beba
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E7\U0001F1F7 BR 151"
+  port: 31320
+  server: 138.118.175.28
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 152"
+  network: ws
+  port: 443
+  server: 172.64.147.71
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8
+  ws-headers:
+    Host: 612.wweblog.pw
+  ws-path: /xxX2
+- cipher: dummy
+  name: "\U0001F1F7\U0001F1FA RU 153"
+  obfs: plain
+  password: lncn.org 6m
+  port: 9582
+  protocol: origin
+  server: 194.50.171.214
+  type: ssr
+- cipher: dummy
+  name: "\U0001F1F7\U0001F1FA RU 154"
+  obfs: plain
+  password: lncn.org 6m
+  port: 9582
+  protocol: origin
+  server: 91.206.92.68
+  type: ssr
+- cipher: dummy
+  name: "\U0001F1F7\U0001F1FA RU 155"
+  obfs: plain
+  password: lncn.org 6m
+  port: 9582
+  protocol: origin
+  server: 194.5.78.96
+  type: ssr
+- cipher: dummy
+  name: "\U0001F1F7\U0001F1FA RU 156"
+  obfs: plain
+  password: lncn.org 6m
+  port: 9582
+  protocol: origin
+  server: 45.130.147.59
+  type: ssr
+- cipher: dummy
+  name: "\U0001F1F7\U0001F1FA RU 157"
+  obfs: plain
+  password: lncn.org 1n
+  port: 9582
+  protocol: origin
+  server: 188.119.64.151
+  type: ssr
+- cipher: dummy
+  name: "\U0001F1F7\U0001F1FA RU 158"
+  obfs: plain
+  password: lncn.org 1n
+  port: 9582
+  protocol: origin
+  server: 194.156.121.250
+  type: ssr
+- cipher: dummy
+  name: "\U0001F1F7\U0001F1FA RU 159"
+  obfs: plain
+  password: lncn.org 1n
+  port: 9582
+  protocol: origin
+  server: 2.56.240.162
+  type: ssr
+- cipher: dummy
+  name: "\U0001F1F7\U0001F1FA RU 160"
+  obfs: plain
+  password: lncn.org 1n
+  port: 9582
+  protocol: origin
+  server: 45.8.159.129
+  type: ssr
+- cipher: dummy
+  name: "\U0001F1F7\U0001F1FA RU 161"
+  obfs: plain
+  password: lncn.org t6
+  port: 9582
+  protocol: origin
+  server: 45.136.245.209
+  type: ssr
+- cipher: dummy
+  name: "\U0001F1F7\U0001F1FA RU 162"
+  obfs: plain
+  password: lncn.org t6
+  port: 9582
+  protocol: origin
+  server: 45.135.135.233
+  type: ssr
+- cipher: dummy
+  name: "\U0001F1F7\U0001F1FA RU 163"
+  obfs: plain
+  password: lncn.org t6
+  port: 9582
+  protocol: origin
+  server: 85.117.235.28
+  type: ssr
+- cipher: dummy
+  name: "\U0001F1E8\U0001F1FF CZ 164"
+  obfs: plain
+  password: lncn.org t6
+  port: 9582
+  protocol: origin
+  server: 194.87.196.232
+  type: ssr
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 165"
+  network: ws
+  port: '21126'
+  server: 120.232.211.231
+  type: vmess
+  uuid: 2fa8f251-9daf-3ffa-8606-0db449400d07
+  ws-opts:
+    headers:
+      host: 120.232.211.231
+    path: /index
+- name: "\U0001F1E8\U0001F1F3 HK 166"
+  password: d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb
+  port: 22818
+  server: az.az-bgp.chuangshi999.xyz
+  skip-cert-verify: true
+  sni: xg1.xianggang1.xyz
+  type: trojan
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 HK 167"
+  password: d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb
+  port: 64340
+  server: az.az-bgp.chuangshi999.xyz
+  skip-cert-verify: true
+  sni: rb1.riben1.xyz
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 168"
+  network: tcp
+  port: '24380'
+  server: 168.138.33.0
+  type: vmess
+  uuid: 5b85c8d2-9ab4-4fce-a91d-3df5f0090a47
+- name: "\U0001F1E8\U0001F1F3 HK 169"
+  password: d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb
+  port: 31250
+  server: az.az-bgp.chuangshi999.xyz
+  skip-cert-verify: true
+  sni: mg3.meiguo01.xyz
+  type: trojan
+  udp: true
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 170"
+  network: ws
+  port: '24873'
+  server: sh.xiaohouzi.club
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      host: www.ibm.com
+    path: /v2ray
+- name: "\U0001F1EF\U0001F1F5 JP 171"
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  port: 443
+  server: jgwdb4.gaox.ml
+  skip-cert-verify: true
+  sni: jgwdb4.gaox.ml
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 HK 172"
+  network: ws
+  port: '17252'
+  server: gy.moonfree.top
+  tls: true
+  type: vmess
+  uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe
+  ws-opts:
+    headers:
+      host: ocrb2.moonfree.top
+    path: /
+- name: "\U0001F1E8\U0001F1F3 HK 173"
+  password: d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb
+  port: 33346
+  server: az.az-bgp.chuangshi999.xyz
+  skip-cert-verify: true
+  sni: yd1.fengzi.uk
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1EE\U0001F1EA IE 174"
+  network: ws
+  port: '443'
+  server: xr-5.herokuapp.com
+  tls: true
+  type: vmess
+  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
+  ws-opts:
+    headers:
+      host: xr-5.herokuapp.com
+    path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
+- name: "\U0001F1E8\U0001F1F3 CN 175"
+  password: d5f3d3e1-c913-49cd-bf90-bf4e2ab9d0eb
+  port: 33514
+  server: cs.bgp.liuliangzhuanfa.xyz
+  skip-cert-verify: true
+  sni: yd1.fengzi.uk
+  type: trojan
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 176"
+  password: password
+  port: 443
+  server: us.vless.fun
+  skip-cert-verify: true
+  sni: us.vless.fun
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 177"
+  network: ws
+  port: '443'
+  server: ifffffffuuuuuuus.qiqicdn2.cf
+  tls: true
+  type: vmess
+  uuid: 5a36cce4-0527-4d36-bf4a-6c215ef9c524
+  ws-opts:
+    headers:
+      host: ifffffffuuuuuuus.qiqicdn2.cf
+    path: /5a36cce4-0527-4d36-bf4a-6c215ef9c524-vmess
+- name: "\U0001F1FA\U0001F1F8 US 178"
+  password: 9337f0d6-c004-4e14-8d50-c944558ed322
+  port: 26969
+  server: 107.148.23.159
+  skip-cert-verify: true
+  sni: us-06.bbbb.pw
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1F0\U0001F1F7 KR 179"
+  network: tcp
+  port: '80'
+  server: 129.154.202.176
+  type: vmess
+  uuid: 19966fba-bfa5-449f-848f-378cc3e65ff6
+- name: "\U0001F1FA\U0001F1F8 US 180"
+  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
+  port: 443
+  server: tj-us01.yiyodns.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 181"
+  network: ws
+  port: '1256'
+  server: v20.emovpn.xyz
+  type: vmess
+  uuid: 61e28514-1462-43b8-97ac-186dc70151f9
+  ws-opts:
+    headers:
+      host: aweikeji-YouTube
+    path: /
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 182"
+  network: ws
+  port: '38701'
+  server: ingress-i1.onebox6.org
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      host: ingress-i1.onebox6.org
+    path: /hls/cctv5phd.m3u8
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1F0\U0001F1F7 KR 183"
+  network: ws
+  port: '80'
+  server: chunchuan-02.aikala.shop
+  type: vmess
+  uuid: a53722eb-5a49-4ffc-a1a3-20d1ad6b66d4
+  ws-opts:
+    headers:
+      host: aweikeji-YouTube
+    path: /
+- name: "\U0001F1FA\U0001F1F8 US 184"
+  password: 3ad41c7b-b772-3f96-9986-66d1a2b79820cmynw
+  port: 443
+  server: kaizen-us-17.cmy-dns.com
+  skip-cert-verify: true
+  sni: paydiu.com
+  type: trojan
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 185"
+  network: tcp
+  port: '12205'
+  server: bgpv2.ktyjsq.com
+  type: vmess
+  uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 186"
+  network: tcp
+  port: '42382'
+  server: 143.198.130.21
+  type: vmess
+  uuid: 03b452a7-907b-4f77-8ca4-60250cc835bc
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 187"
+  network: ws
+  port: '38106'
+  server: ingress-i1.onebox6.org
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      host: www.ivpnpro.net
+    path: /hls/cctv5phd.m3u8
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 188"
+  network: ws
+  port: '38101'
+  server: ingress-i2.onebox6.org
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      host: www.ivpnpro.net
+    path: /hls/cctv5phd.m3u8
+- alterId: '2'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 HK 189"
+  network: ws
+  port: '80'
+  server: 527hk3.fans8.xyz
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-opts:
+    headers:
+      host: 527hk3.fans8.xyz
+    path: /ray
+- alterId: '0'
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 190"
+  network: ws
+  port: '443'
+  server: 172.67.140.112
+  tls: true
+  type: vmess
+  uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a
+  ws-opts:
+    headers:
+      host: yzjd01-ublubeu.koyeb.app
+    path: /
+- name: "\U0001F1FA\U0001F1F8 US 191"
+  password: b9aeaaa9-8817-40d6-8936-84fa5581fe14
+  port: 51000
+  server: hk.zzk8.me
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: "\U0001F1EB\U0001F1F7 FR 192"
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 149.202.82.172
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 193"
+  password: bzUdYJ4JzjGfIwhG
+  port: 26240
+  server: bb01.nfeng6.pp.ua
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EC\U0001F1E7 GB 194"
+  password: 54df1ad5-1323-4dd7-b7a1-a53202347526
+  port: 54141
+  server: 167.172.56.225
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 195"
+  password: b6040656-96c5-4748-a73c-5a8f15ed7531
+  port: 50300
+  server: 120.233.10.230
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 196"
+  password: b6040656-96c5-4748-a73c-5a8f15ed7531
+  port: 50700
+  server: 120.233.10.230
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: "\U0001F1F0\U0001F1F7 KR 197"
+  password: b6040656-96c5-4748-a73c-5a8f15ed7531
+  port: 50300
+  server: cn1.relay.iepl.pw
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: "\U0001F1E8\U0001F1F3 CN 198"
+  password: b6040656-96c5-4748-a73c-5a8f15ed7531
+  port: 50500
+  server: 120.233.10.230
+  type: ss
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 199"
+  port: 52286
+  server: 86.wowogg.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 200"
+  network: ws
+  port: 443
+  server: v1.ssrsub.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
+  ws-opts:
+    headers:
+      Host: v1.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 201"
+  network: ws
+  port: 443
+  server: v2.ssrsub.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
+  ws-opts:
+    headers:
+      Host: v2.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 4
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 202"
+  network: ws
+  port: 2164
+  server: sxqxj.cn
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: sxqxj.cn
+    path: /ws
+- alterId: 4
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 203"
+  network: ws
+  port: 443
+  server: ahdaeph8.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-opts:
+    headers:
+      Host: ahdaeph8.com
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 HK 204"
+  port: 33080
+  server: 165.154.225.230
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EE\U0001F1F7 IR 205"
+  port: 54242
+  server: nnv.chitacdn.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f2393d82-94c4-4b12-8267-293a7500e487
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 206"
+  network: ws
+  port: 1510
+  server: zzcm09.bdate.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  ws-opts:
+    headers:
+      Host: aweikeji-YouTube
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 207"
+  network: ws
+  port: 20631
+  server: cs.daxun.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 99591e4d-b11e-4488-b366-53f3b6787bba
+  ws-opts:
+    headers:
+      Host: cs.daxun.cyou
+    path: /hinet04
+- alterId: 1
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 208"
+  network: ws
+  port: 38104
+  server: ingress-i2.onebox6.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: www.ivpnpro.net
+    path: /hls/cctv5phd.m3u8
+- alterId: 1
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 209"
+  network: ws
+  port: 38701
+  server: ingress-i1.onebox6.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: ingress-i1.onebox6.org
+    path: /hls/cctv5phd.m3u8
+- alterId: 1
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 210"
+  network: ws
+  port: 38106
+  server: ingress-i1.onebox6.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      Host: www.ivpnpro.net
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 211"
+  port: 12224
+  server: bgpv2.ktyjsq.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1ED CH 212"
+  port: 120
+  server: 51.103.172.68
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4d358310-efdf-4622-9d7e-c067935e7ab8
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 213"
+  network: ws
+  port: 1030
+  server: zzcm07.bdate.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  ws-opts:
+    headers:
+      Host: zzcm07.bdate.xyz
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 214"
+  network: ws
+  port: 1020
+  server: zzcm04.bdate.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  ws-opts:
+    headers:
+      Host: aweikeji-YouTube
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 215"
+  network: ws
+  port: 1280
+  server: zzcm08.bdate.xyz
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b9ecdb44-236b-30a7-94f2-f464993d84cf
+  ws-opts:
+    headers:
+      Host: aweikeji-YouTube
+    path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 216"
+  network: ws
+  port: 38822
+  server: 161.8.149.7
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1dab5094-c29c-11ec-83d0-e0db55fccaf9
+  ws-opts:
+    headers:
+      Host: 161.8.149.7
+    path: /ZXfq8Vm7/
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC SG 217"
+  network: ws
+  port: 80
+  server: 18.138.255.0
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f778539f-5954-4b0e-987b-94a6081c1af7
+  ws-opts:
+    headers:
+      Host: down.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC SG 218"
+  network: ws
+  port: 23312
+  server: node.gkddd.buzz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: a6f34df0-6e9e-4522-80ff-a41517803f17
+  ws-opts:
+    headers:
+      Host: node.gkddd.buzz
+    path: /sometimesnaive
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 219"
+  port: 13413
+  server: 125.94.37.107
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 1cb72800-3d77-4db3-b656-26c3bc04125d
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 220"
+  port: 26122
+  server: shouer.tk15.tk
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c19949fe-e5ca-4aa7-b577-f9aed2c97c22
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 221"
+  network: ws
+  port: 2053
+  server: 172.64.94.238
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 80e098a1-f768-3dfb-b97f-6c3a5d34bcd8
+  ws-opts:
+    headers:
+      Host: web1.wweblog.pw
+    path: xxX3
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 222"
+  network: ws
+  port: 18443
+  server: jp1.trojan.tel
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f736834f-1fc8-4738-9884-9afe0eb0d818
+  ws-opts:
+    headers:
+      Host: d85bb25696.laowanxiang.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 223"
+  network: ws
+  port: 18443
+  server: jp2.trojan.tel
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f736834f-1fc8-4738-9884-9afe0eb0d818
+  ws-opts:
+    headers:
+      Host: d85bb25696.laowanxiang.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1E6 CA 224"
+  network: ws
+  port: 18443
+  server: ca1.trojan.tel
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f736834f-1fc8-4738-9884-9afe0eb0d818
+  ws-opts:
+    headers:
+      Host: d85bb25696.laowanxiang.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F9\U0001F1F7 TR 225"
+  port: 31256
+  server: tk-nf-route.teacher2060.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: B8AAA6E1-F0B3-B9EC-3DFC-BB226C167B33
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 226"
+  network: ws
+  port: 80
+  server: v1.goooodserver.ml
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 3b5b288a-6422-4eee-ea53-e8e0edd80e09
+  ws-headers:
+    Host: v1.goooodserver.ml
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 HK 227"
+  network: ws
+  port: 50001
+  server: 18.162.133.187
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 988114fd-b25d-4c17-9ff1-f7121e9129fc
+  ws-opts:
+    headers:
+      Host: 18.162.133.187
+    path: /
+- alterId: 1
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 228"
+  network: ws
+  port: 27820
+  server: mc.xiaohouzi.club
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      Host: www.ibm.com
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 229"
+  network: ws
+  port: 50001
+  server: 52.197.220.164
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 988114fd-b25d-4c17-9ff1-f7121e9129fc
+  ws-opts:
+    headers:
+      Host: 52.197.220.164
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 HK 230"
+  network: ws
+  port: 80
+  server: 104.208.98.143
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 771bc353-223e-4ccd-bbdf-6e1f27c44349
+  ws-opts:
+    headers:
+      Host: v.qq.com
+    path: /images
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 HK 231"
+  password: ljqdalu13..
+  port: 8313
+  server: 104.208.106.25
+  type: ss
+- alterId: 1
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 232"
+  network: ws
+  port: 28321
+  server: mc.xiaohouzi.club
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-opts:
+    headers:
+      Host: www.ibm.com
+    path: /v2ray
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 JP 233"
+  password: ljqdalu13..
+  port: 8313
+  server: 20.210.234.200
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F0\U0001F1F7 KR 234"
+  password: ljqdalu13..
+  port: 8313
+  server: 20.214.142.109
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 US 235"
+  password: ljqdalu13..
+  port: 8313
+  server: 20.249.8.7
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F3 UN 236"
+  network: ws
+  port: 2053
+  server: cf.fullcloud.tk
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  ws-opts:
+    headers:
+      Host: foxusovz2.fovi.tk
+    path: /eisasqa
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 237"
+  network: ws
+  port: 25881
+  server: gkdcm.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 238"
+  network: ws
+  port: 25881
+  server: gkdcu.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcu.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 239"
+  network: ws
+  port: 25899
+  server: gkdcm.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 240"
+  network: ws
+  port: 25898
+  server: gkdcm.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 241"
+  network: ws
+  port: 25897
+  server: gkdcm.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 242"
+  network: ws
+  port: 25895
+  server: gkdcm.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 243"
+  network: ws
+  port: 25894
+  server: gkdcm.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 244"
+  network: ws
+  port: 25888
+  server: gkdcm.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 245"
+  network: ws
+  port: 25888
+  server: gkdcu.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcu.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 246"
+  network: ws
+  port: 25887
+  server: gkdcm.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 247"
+  network: ws
+  port: 25887
+  server: gkdcu.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcu.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 248"
+  network: ws
+  port: 25886
+  server: gkdcm.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 249"
+  network: ws
+  port: 25886
+  server: gkdcu.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcu.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 250"
+  network: ws
+  port: 25885
+  server: gkdcm.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 251"
+  network: ws
+  port: 25885
+  server: gkdcu.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcu.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 252"
+  network: ws
+  port: 25884
+  server: gkdcm.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 253"
+  network: ws
+  port: 25884
+  server: gkdcu.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcu.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 254"
+  network: ws
+  port: 25883
+  server: gkdcm.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 255"
+  network: ws
+  port: 25883
+  server: gkdcu.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcu.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 256"
+  network: ws
+  port: 25882
+  server: gkdcm.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 257"
+  network: ws
+  port: 25882
+  server: gkdcu.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcu.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 258"
+  network: ws
+  port: 25890
+  server: gkdcm.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 259"
+  network: ws
+  port: 25890
+  server: gkdcu.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcu.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 260"
+  network: ws
+  port: 25889
+  server: gkdcm.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 261"
+  network: ws
+  port: 25889
+  server: gkdcu.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcu.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 262"
+  network: ws
+  port: 25818
+  server: gkdcm1.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm1.myjcbbcn.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 263"
+  network: ws
+  port: 25892
+  server: gkdcm.myjcbbcn.top
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2eab7f70-0638-490f-b279-babf64266ca6
+  ws-opts:
+    headers:
+      Host: gkdcm.myjcbbcn.top
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 TW 264"
+  password: 7cb93ef7-c3b3-4fa0-af22-642da4317884
+  port: 31334
+  server: fdbdfsb.170809.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 TW 265"
+  password: 7cb93ef7-c3b3-4fa0-af22-642da4317884
+  port: 31334
+  server: dsfdg.170809.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 US 266"
+  password: 7cb93ef7-c3b3-4fa0-af22-642da4317884
+  port: 45233
+  server: us04.170809.xyz
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 267"
+  port: 443
+  server: 6.3.2.2
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1FA\U0001F1E6 UA 268"
+  network: ws
+  port: 443
+  server: 422wkl.fans8.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-opts:
+    headers:
+      Host: 422wkl.fans8.xyz
+    path: /ray
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC SG 269"
+  network: ws
+  port: 443
+  server: 531sg.fans8.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-opts:
+    headers:
+      Host: 531sg.fans8.xyz
+    path: /ray
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 270"
+  network: ws
+  port: 80
+  server: 51jp1.fans8.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-opts:
+    headers:
+      Host: 51jp1.fans8.xyz
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 271"
+  network: ws
+  port: 20000
+  server: hk01.henet.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a64899d8-6261-4e97-baf1-d304591a33c6
+  ws-opts:
+    headers:
+      Host: cctv.com
+    path: /live
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 272"
+  network: ws
+  port: 20000
+  server: jp01.henet.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a64899d8-6261-4e97-baf1-d304591a33c6
+  ws-opts:
+    headers:
+      Host: cctv.com
+    path: /live
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 JP 273"
+  network: ws
+  port: 20000
+  server: jp02.henet.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a64899d8-6261-4e97-baf1-d304591a33c6
+  ws-opts:
+    headers:
+      Host: cctv.com
+    path: /live
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 TW 274"
+  network: ws
+  port: 20000
+  server: tw01.henet.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a64899d8-6261-4e97-baf1-d304591a33c6
+  ws-opts:
+    headers:
+      Host: cctv.com
+    path: /live
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 TW 275"
+  network: ws
+  port: 20000
+  server: tw02.henet.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a64899d8-6261-4e97-baf1-d304591a33c6
+  ws-opts:
+    headers:
+      Host: cctv.com
+    path: /live
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 276"
+  network: ws
+  port: 20000
+  server: us01.henet.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a64899d8-6261-4e97-baf1-d304591a33c6
+  ws-opts:
+    headers:
+      Host: cctv.com
+    path: /live
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 US 277"
+  network: ws
+  port: 20000
+  server: us02.henet.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a64899d8-6261-4e97-baf1-d304591a33c6
+  ws-opts:
+    headers:
+      Host: cctv.com
+    path: /live
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC SG 278"
+  network: ws
+  port: 20000
+  server: sg01.henet.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a64899d8-6261-4e97-baf1-d304591a33c6
+  ws-opts:
+    headers:
+      Host: cctv.com
+    path: /live
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC SG 279"
+  network: ws
+  port: 20000
+  server: sg02.henet.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a64899d8-6261-4e97-baf1-d304591a33c6
+  ws-opts:
+    headers:
+      Host: cctv.com
+    path: /live
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F0\U0001F1F7 KR 280"
+  network: ws
+  port: 20000
+  server: kr01.henet.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a64899d8-6261-4e97-baf1-d304591a33c6
+  ws-opts:
+    headers:
+      Host: cctv.com
+    path: /live
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F0\U0001F1F7 KR 281"
+  network: ws
+  port: 20000
+  server: kr02.henet.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: a64899d8-6261-4e97-baf1-d304591a33c6
+  ws-opts:
+    headers:
+      Host: cctv.com
+    path: /live

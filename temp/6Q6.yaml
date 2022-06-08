@@ -1,0 +1,19 @@
+log-level: silent
+mode: global
+port: 4086
+proxies:
+- alterId: '1'
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 CN 187"
+  network: ws
+  port: '38106'
+  server: ingress-i1.onebox6.org
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-opts:
+    headers:
+      host: www.ivpnpro.net
+    path: /hls/cctv5phd.m3u8
+proxy-groups:
+- "\U0001F1E8\U0001F1F3 CN 187"
+rules: []

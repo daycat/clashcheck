@@ -1,0 +1,13 @@
+log-level: silent
+mode: global
+port: 4028
+proxies:
+- cipher: aes-256-cfb
+  name: "\U0001F1F7\U0001F1FA RU 129"
+  password: gYCYXfkUQEs2TaJQ
+  port: 9038
+  server: 213.183.53.212
+  type: ss
+proxy-groups:
+- "\U0001F1F7\U0001F1FA RU 129"
+rules: []

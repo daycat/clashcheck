@@ -1,0 +1,21 @@
+log-level: silent
+mode: global
+port: 4129
+proxies:
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 HK 230"
+  network: ws
+  port: 80
+  server: 104.208.98.143
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 771bc353-223e-4ccd-bbdf-6e1f27c44349
+  ws-opts:
+    headers:
+      Host: v.qq.com
+    path: /images
+proxy-groups:
+- "\U0001F1E8\U0001F1F3 HK 230"
+rules: []

@@ -1,0 +1,14 @@
+log-level: silent
+mode: global
+port: 4029
+proxies:
+- name: "\U0001F1FA\U0001F1F8 US 130"
+  password: 48ac743a-2d49-4191-b804-0c7fa7e01146
+  port: 443
+  server: mc.vpshax.ml
+  skip-cert-verify: false
+  sni: mc.vpshax.ml
+  type: trojan
+proxy-groups:
+- "\U0001F1FA\U0001F1F8 US 130"
+rules: []

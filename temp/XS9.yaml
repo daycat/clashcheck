@@ -1,0 +1,14 @@
+log-level: silent
+mode: global
+port: 4033
+proxies:
+- name: "\U0001F1F8\U0001F1EC SG 134"
+  password: c4a031e7-27a0-4a43-9952-7420bc2b8894
+  port: 443
+  server: hk64.fans8.xyz
+  skip-cert-verify: false
+  sni: hk64.fans8.xyz
+  type: trojan
+proxy-groups:
+- "\U0001F1F8\U0001F1EC SG 134"
+rules: []
