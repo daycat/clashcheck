@@ -2,6 +2,7 @@ import os.path
 import time
 from multiprocessing import Process, Manager, Semaphore
 from yaml.loader import SafeLoader
+from clash import push
 import json
 import yaml
 import requests
@@ -31,7 +32,7 @@ if __name__ == '__main__':
             api_port = config['api-port']
             threads = config['threads']
         alive = manager.list()
-        with open ('output.yaml','r') as reader:
+        with open ('input.yaml','r') as reader:
             proxyconfig = yaml.load(reader,Loader=SafeLoader)
         baseurl = '127.0.0.1:' + str(api_port)
         config = {'port': http_port, 'external-controller': baseurl, 'mode': 'global',
@@ -53,6 +54,7 @@ if __name__ == '__main__':
         time.sleep(10)
         alive=list(alive)
         print(alive)
+        push(alive)
 
         clash.terminate()
 
