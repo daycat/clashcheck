@@ -6,6 +6,7 @@ from clash import push
 import json
 import yaml
 import requests
+import shutil
 import subprocess
 
 
@@ -31,9 +32,13 @@ if __name__ == '__main__':
             http_port = config['http-port']
             api_port = config['api-port']
             threads = config['threads']
+            source = str(config['source'])
         alive = manager.list()
-        with open ('input.yaml','r') as reader:
-            proxyconfig = yaml.load(reader,Loader=SafeLoader)
+        if source.startswith('https://'):
+            proxyconfig = yaml.load(requests.get(source).text,Loader=SafeLoader)
+        else:
+            with open (source,'r') as reader:
+                proxyconfig = yaml.load(reader,Loader=SafeLoader)
         baseurl = '127.0.0.1:' + str(api_port)
         config = {'port': http_port, 'external-controller': baseurl, 'mode': 'global',
                       'log-level': 'silent', 'proxies': proxyconfig['proxies']}
@@ -55,6 +60,6 @@ if __name__ == '__main__':
         alive=list(alive)
         print(alive)
         push(alive)
-
+        shutil.rmtree('./temp')
         clash.terminate()
 
