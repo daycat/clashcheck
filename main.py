@@ -3,6 +3,7 @@ import time
 from multiprocessing import Process, Manager, Semaphore
 from yaml.loader import SafeLoader
 from clash import push
+from tqdm import tqdm
 import json
 import yaml
 import requests
@@ -34,6 +35,7 @@ if __name__ == '__main__':
             threads = config['threads']
             source = str(config['source'])
             timeout = config['timeout']
+            outfile = config['outfile']
         alive = manager.list()
         if source.startswith('https://'):
             proxyconfig = yaml.load(requests.get(source).text,Loader=SafeLoader)
@@ -50,16 +52,16 @@ if __name__ == '__main__':
         apiurl='http://'+baseurl
         sema = Semaphore(threads)
         time.sleep(5)
-        for i in config['proxies']:
+        for i in tqdm(range(int(len(config['proxies']))), desc="Testing"):
             sema.acquire()
-            p = Process(target=check, args=(alive,i,apiurl,sema,timeout))
+            p = Process(target=check, args=(alive,config['proxies'][i],apiurl,sema,timeout))
             p.start()
             processes.append(p)
         for p in processes:
             p.join
         time.sleep(10)
         alive=list(alive)
-        push(alive)
+        push(alive,outfile)
         shutil.rmtree('./temp')
         clash.terminate()
 

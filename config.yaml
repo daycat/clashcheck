@@ -2,4 +2,5 @@ http-port: 23940 #port to run http proxy on
 api-port: 23941 #api port
 threads: 100 #thread number
 source: https://ghproxy.com/https://raw.githubusercontent.com/daycat/freeray/main/output.yaml
-timeout: 3500 #timeout in miliseconds
+outfile: optimized.yaml
+timeout: 1000 #timeout in miliseconds

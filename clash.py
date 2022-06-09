@@ -4,7 +4,7 @@ import maxminddb
 from tqdm import tqdm
 import flag
 
-def push(list):
+def push(list, outfile):
     country_count = {}
     count = 1
     clash = {'port': 7890, 'socks-port': 7891, 'bind-address': '*', 'mode': 'rule', 'log-level': 'silent',
@@ -320,5 +320,5 @@ def push(list):
                 #print(list[i])
                 #pass
 
-    with open('output.yaml', 'w') as writer:
+    with open(outfile, 'w') as writer:
         yaml.dump(clash, writer, sort_keys=False)
