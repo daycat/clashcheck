@@ -14,11 +14,14 @@ import subprocess
 
 
 def check(alive, proxy, apiurl,sema,timeout):
-    r = requests.get(url=apiurl + '/proxies/'+str(proxy['name'])+'/delay?url=http://gstatic.com/generate_204&timeout='+str(timeout))
-    response = json.loads(r.text)
     try:
-        if response['delay'] > 0:
-            alive.append(proxy)
+        r = requests.get(url=apiurl + '/proxies/'+str(proxy['name'])+'/delay?url=http://gstatic.com/generate_204&timeout='+str(timeout),timeout=5)
+        response = json.loads(r.text)
+        try:
+            if response['delay'] > 0:
+                alive.append(proxy)
+        except:
+            pass
     except:
         pass
 
@@ -75,7 +78,7 @@ if __name__ == '__main__':
             processes.append(p)
         for p in processes:
             p.join
-        time.sleep(10)
+        time.sleep(5)
         alive=list(alive)
         push(alive,outfile)
         shutil.rmtree('./temp')
