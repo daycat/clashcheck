@@ -1,9 +1,11 @@
 import os.path
+import sys
 import time
 from multiprocessing import Process, Manager, Semaphore
 from yaml.loader import SafeLoader
 from clash import push
 from tqdm import tqdm
+import platform
 import json
 import yaml
 import requests
@@ -47,7 +49,21 @@ if __name__ == '__main__':
                       'log-level': 'silent', 'proxies': proxyconfig['proxies']}
         with open('./temp/working.yaml', 'w') as file:
             file = yaml.dump(config, file)
-        clash = subprocess.Popen(['./clash', '-f', './temp/working.yaml'])
+        operating_system=str(platform.platform())
+        if operating_system.startswith('macOS'):
+            if 'arm64' in operating_system:
+                clashname='./clash-darwinarm64'
+            else:
+                clashname='./clash-darwinamd64'
+        elif operating_system.startswith('Linux'):
+            clashname='./clash-linuxamd64'
+        elif operating_system.startswith('Windows'):
+            clashname='clash-windowsamd64.exe'
+        else:
+            print('Unsupported Platform')
+            exit(1)
+        print('Running on '+ operating_system)
+        clash = subprocess.Popen([clashname, '-f', './temp/working.yaml'])
         processes =[]
         apiurl='http://'+baseurl
         sema = Semaphore(threads)
