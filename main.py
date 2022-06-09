@@ -10,8 +10,8 @@ import shutil
 import subprocess
 
 
-def check(alive, proxy, apiurl,sema):
-    r = requests.get(url=apiurl + '/proxies/'+str(proxy['name'])+'/delay?url=http://gstatic.com/generate_204&timeout=3000')
+def check(alive, proxy, apiurl,sema,timeout):
+    r = requests.get(url=apiurl + '/proxies/'+str(proxy['name'])+'/delay?url=http://gstatic.com/generate_204&timeout='+str(timeout))
     response = json.loads(r.text)
     try:
         if response['delay'] > 0:
@@ -33,6 +33,7 @@ if __name__ == '__main__':
             api_port = config['api-port']
             threads = config['threads']
             source = str(config['source'])
+            timeout = config['timeout']
         alive = manager.list()
         if source.startswith('https://'):
             proxyconfig = yaml.load(requests.get(source).text,Loader=SafeLoader)
@@ -51,14 +52,13 @@ if __name__ == '__main__':
         time.sleep(5)
         for i in config['proxies']:
             sema.acquire()
-            p = Process(target=check, args=(alive,i,apiurl,sema))
+            p = Process(target=check, args=(alive,i,apiurl,sema,timeout))
             p.start()
             processes.append(p)
         for p in processes:
             p.join
         time.sleep(10)
         alive=list(alive)
-        print(alive)
         push(alive)
         shutil.rmtree('./temp')
         clash.terminate()
