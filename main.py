@@ -23,8 +23,13 @@ def check(alive, proxy, apiurl,sema,timeout):
                 response = json.loads(r.text)
                 try:
                     if response['delay'] > 0:
-                        print(response['delay'])
-                        alive.append(proxy)
+                        r = requests.get(url=apiurl + '/proxies/' + str(proxy['name']) + '/delay?url=https://cachefly.cachefly.net/1mb.test&timeout=' + str(timeout), timeout=10)
+                        response = json.loads(r.text)
+                        try:
+                            if response['delay'] > 0:
+                                alive.append(proxy)
+                        except:
+                            pass
                 except:
                     pass
         except:
