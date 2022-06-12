@@ -3,4 +3,4 @@ api-port: 23941 #api port
 threads: 100 #thread number
 source: https://ghproxy.com/https://raw.githubusercontent.com/daycat/freeray/main/output.yaml
 outfile: optimized.yaml
-timeout: 3000 #timeout in miliseconds
+timeout: 2000 #timeout in miliseconds
