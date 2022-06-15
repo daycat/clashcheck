@@ -1,6 +1,16 @@
 http-port: 23940 #port to run http proxy on
 api-port: 23941 #api port
-threads: 100 #thread number
+threads: 100 #thread number. should be less than 20.
 source: https://ghproxy.com/https://raw.githubusercontent.com/daycat/freeray/main/output.yaml
 outfile: optimized.yaml
+test-url: https://gstatic.com/generate_204
 timeout: 2000 #timeout in miliseconds
+
+# {'message': 'An error occurred in the delay test'} @ 200t : 800*
+# {'message': 'Timeout'} @ 200t : 2154*
+# {'delay': x} @ 200t : 778
+
+# {'message': 'An error occurred in the delay test'} @ 100t : 1075
+# {'message': 'Timeout'} @ 100t : 1155*
+# {'delay': x} @ 100t : 1525
+
